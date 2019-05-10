@@ -1,0 +1,152 @@
+
+header{
+	padding:20px;
+	background-color: #353A3E;
+	display: block;
+	margin:0 auto;
+}
+nav{
+	margin-bottom:30px;
+	font-family:Bodoni;
+	font-size:40px;
+	text-shadow: 0 0 1px black;
+}
+main, .navbar-nav{
+	max-width: 1200px;
+	margin:0 auto;
+
+}
+
+
+body{
+	background-color:#E6E7E2;
+
+}
+
+h1{
+	margin-bottom: 25px;
+	margin-top:25px;
+	font-family:didot;
+	text-align:center;
+	border-style:solid;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-left-width:0;
+	border-right-width:0;
+  shadow: 0 0 3px grey;
+	border-color:#070806;
+	background-color:#E6E7E2;
+	color:#070806;
+	text-shadow: 0 0 2px grey;
+}
+h2{
+	text-align:center;
+}
+h4{
+	text-align:center;
+	font-family:bodoni;
+}
+h3{
+	font-family:cursive;
+	text-align:right;
+}
+h6{
+	text-align:center;
+font-style:italic;
+}
+hr{
+
+}
+p{font-family:bodoni;
+	font-size:18px;
+
+
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: bounce(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.logo{
+	animation-duration: 6s;
+  animation-name: bounceIn;
+
+}
+
+footer{
+	text-align:center;
+	background-color: #32373D;
+	color: white;
+	padding:10px;
+	margin-top: 20px;
+}
+
+
+.nobullets{
+	list-style-type:none;
+	padding-left:0;
+
+}
+.boxstyle{
+	margin-bottom:20px;
+}
+.contact-icons{
+	text-align:center;
+  color:black;
+}
+.contact-icons i{
+	font-size: 60px;
+	margin-top: 40px;
+    color:black;
+	}
+.contact-icons h2{
+	margin-bottom: 50px;
+  color:black;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+  }
+
+	.topnav a:hover {
+	  background-color: white;
+	  color: black;
+	}
+	.dropdown-menu{
+		font-size:24px;
+		color:white;
+		background-color:#353A3E;
+
+	}
+	.dropdown-item{
+		color:white;
+	}
+
+
+	/* CSS Adjustments for Tablets */
+	@media only screen and (max-width: 1024px) {
+		h1{
+			font-size: 1.8em;
+		}
+	}
+
+	/* CSS Adjustments for Smartphones */
+	@media only all and (max-width: 768px) {
+		h1{
+		    font-size: 1.5em;
+		}
+
+	}
